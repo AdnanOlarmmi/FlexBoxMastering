@@ -16,15 +16,40 @@
 }
 .container{
     display: flex;
-    background-color: #23424A;
-    width: 100%;
-    max-width: 750px;
-    margin: 0 auto;
-    color: white;
     justify-content: space-between;
+    background-color: #23424A;
+    color: white;
     padding: 3em;
+    
     
 }
 img{
+    
     max-width: 100%;
+}
+.top{
+    width: 80%;
+    max-width: 750px;
+}
+button{
+    background-color: aqua;
+    padding: 1em;
+    border-radius: 20px;
+    border: transparent;
+    font-weight: bold;
+}
+
+.section{
+    display: flex;
+   
+    padding: 1em;
+}
+.section__left__title{
+    color:#136C72;
+}
+.section__right{
+    background-color: #136C72;
+    color: white;
+    padding: 2em;
+    text-align: center;
 }
