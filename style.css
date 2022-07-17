@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Roboto';
+    
+    /* this value can be anything you wish - it gets used in the class definition below */
+    src: url('Roboto/Roboto-Regular.ttf') format("truetype");
+    /* add the file path to your font here */
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+
+}
+.container{
+    display: flex;
+    background-color: #23424A;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    color: white;
+    justify-content: space-between;
+    padding: 3em;
+    
+}
+img{
+    max-width: 100%;
+}
